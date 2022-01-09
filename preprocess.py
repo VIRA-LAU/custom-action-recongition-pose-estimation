@@ -11,6 +11,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
     config = importlib.import_module('config.' + args.config)
 
+
     labeled_images = []
     for subdir, dirs, files in os.walk(config.images_dir):
         for img in files:

@@ -4,9 +4,9 @@ from sklearn.linear_model import LogisticRegression as classifier
 # Set source for opencv VideoCapture: usb index, mp4, rtsp
 stream = 0
 
-# Set path to staged data, raw images, pickled sklearn model
+# indicate where to save the csv files and where to find the images + model
 csv_path = 'data/data.csv'
-images_dir = 'path/to/images/dir'
+images_dir = 'images'
 #classifier_model = 'models/'
 
 # Set path to pose estimation model asset and body keypoint map
